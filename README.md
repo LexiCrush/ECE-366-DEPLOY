@@ -1,4 +1,6 @@
 # Ethics 
+## Disclaimers
+- Lexicrush stores passwords and access tokens in plain text and does not embed signatures from client or server side. As a result, data is not secure and is vulnerable to SQL injections or any other type of attack (please do not submit vulnerable or private information into any field).
 #### 1. We accept full responsibility for our work.
 The negative and positive aspects of our game are the product of our work. 
 #### 2. Provided service in our areas of competence, being honest and forthright about any limitations in our experience and education.
