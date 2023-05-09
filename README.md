@@ -9,7 +9,19 @@ This guide provides instructions for deploying Lexicrush on an Ubuntu Droplet se
     sudo apt install openjdk-17-jre-headless
     mkdir /artifact
     cd artifact
-3. git clone [lexicrush-frontend](https://github.com/LexiCrush/lexicrush-frontend) & [lexicrush-server](https://github.com/LexiCrush/lexicrush-server)
+3. Clone [lexicrush-frontend](https://github.com/LexiCrush/lexicrush-frontend) & [lexicrush-server](https://github.com/LexiCrush/lexicrush-server)
+4. Copy run.sh
+    ```
+    cd /artifact/lexicrush-server
+    nohup mvn spring-boot:run &
+    cd /artifact/lexicrush-frontend
+    npm i
+    nohup npm start &
+5. 
+    ``` 
+    ./run.sh
+
+The game is now running on http://DropletIP:3000
 
 # Ethics 
 ## Disclaimers
