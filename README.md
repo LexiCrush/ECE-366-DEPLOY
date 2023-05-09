@@ -1,3 +1,16 @@
+# Deploying Lexicrush
+This guide provides instructions for deploying Lexicrush on an Ubuntu Droplet server from Digital Ocean. 
+
+## Steps 
+1. Spawn and enter Droplet.
+2. Run the following commands:
+    ```
+    sudo apt update
+    sudo apt install openjdk-17-jre-headless
+    mkdir /artifact
+    cd artifact
+3. git clone [lexicrush-frontend](https://github.com/LexiCrush/lexicrush-frontend) & [lexicrush-server](https://github.com/LexiCrush/lexicrush-server)
+
 # Ethics 
 ## Disclaimers
 - Lexicrush stores passwords and access tokens in plain text and does not embed signatures from client or server side. As a result, data is not secure and is vulnerable to SQL injections or any other type of attack (please do not submit vulnerable or private information into any field).
