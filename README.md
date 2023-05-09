@@ -47,3 +47,12 @@ All data used to produce our game was obtained legally from publically accessibl
 We used online sources to understand how the softwares we used could be used to implement different aspects of our project.     
 #### 10. Did not influence others to undertake any action that involved a break of this Code.
 We ensured that each of us were abiding by this Code and did not convince anyone to go against this Code. 
+
+
+# Sources
+Space: https://codepen.io/DXC/pen/KXePxm
+Login Page: https://codepen.io/mamislimen/pen/jOwwLvy
+Alien: https://codepen.io/SofiaSergio/pen/aYqEQv
+Profile: https://codepen.io/alvaromontoro/pen/ebPEWb
+Astronaut: https://codepen.io/Coding-Artist/pen/gjZJOZ
+Glitch Text: https://codepen.io/kevinpowell/pen/YzqerQm
