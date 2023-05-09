@@ -11,12 +11,13 @@ This guide provides instructions for deploying Lexicrush on an Ubuntu Droplet se
     cd artifact
 3. Clone [lexicrush-frontend](https://github.com/LexiCrush/lexicrush-frontend) & [lexicrush-server](https://github.com/LexiCrush/lexicrush-server)
 4. Copy run.sh
-    ```
+    <pre><code class="language-sh">
     cd /artifact/lexicrush-server
     nohup mvn spring-boot:run &
     cd /artifact/lexicrush-frontend
     npm i
     nohup npm start &
+    </code></pre>
 5. 
     ``` 
     ./run.sh
